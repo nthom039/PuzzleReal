@@ -1,9 +1,11 @@
 import './App.css';
-import Button from 'react-bootstrap/Button';
+import Navbar from './TopNav';
+import { Button } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       HelloTesting
       <Button>Test</Button>
     </div>
