@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.Premade .cardContainer {
+  align-items: center;
+  text-align: center;
+}
+
+.Premade .cardTitle {
+  text-align: left;
+}
+
+.Premade .cardPrice {
+  padding-left: 0;
+  font-weight: bold;
+  text-align: left;
+  align-items: left;
+}
+.Premade .cardButton {
+  text-align: right;
+}
