@@ -23,8 +23,14 @@ function TopNav() {
               <Offcanvas.Title>Offcanvas</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              Some text as placeholder. In real life you can have the elements you
-              have chosen. Like, text, images, lists, etc.
+              <Nav className="justify-content-end flex-grow-1 pe-3">
+                <Nav.Link href="">Home</Nav.Link>
+                <Nav.Link href="">Our Work</Nav.Link>
+                <Nav.Link href="">Premade</Nav.Link>
+                <Nav.Link href="">Make Your Own</Nav.Link>
+                <Nav.Link href="">Ambitious</Nav.Link>
+                <Nav.Link href="">Cart</Nav.Link>
+              </Nav>
             </Offcanvas.Body>
           </Offcanvas>
         </Container>
