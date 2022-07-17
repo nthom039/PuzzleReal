@@ -12,11 +12,9 @@ function TopNav() {
     <div className="TopNav">
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#">Navbar with text</Navbar.Brand>
+          <Navbar.Brand href="#">Title</Navbar.Brand>
           <Button variant="light">Cart</Button>
-          <Button variant="light" onClick={handleShow}>
-            Launch
-          </Button>
+          <Button variant="light" onClick={handleShow}>Launch</Button> 
 
           <Offcanvas show={show} onHide={handleClose} placement={'end'}>
             <Offcanvas.Header closeButton>
