@@ -55,3 +55,12 @@
 .Premade .cardButton {
   text-align: right;
 }
+
+.Ambitious {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Ambitious .Card {
+  padding: 2%;
+}
