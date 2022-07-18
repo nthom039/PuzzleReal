@@ -1,4 +1,4 @@
-import { Card, Form } from "react-bootstrap";
+import { Card, Container, Form, Row, Col, Button } from "react-bootstrap";
 
 function Ambitious() {
     return (
@@ -6,36 +6,63 @@ function Ambitious() {
             <h1>Ambitious</h1>
             <Card className="Card">
             <Form>
-                <Form.Group>
-                    <Form.Label>Occasion</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Occasion"></Form.Control>
-                </Form.Group>
-
-                <Form.Group>
-                    <Form.Label>Company's/Individual's Name</Form.Label>
-                    <Form.Control type="Text" placeholder="Enter Name"></Form.Control>
-                </Form.Group>
-
-                <Form.Group>
-                    <Form.Label>Email</Form.Label>
-                    <Form.Control type="Email" placeholder="Enter Email"></Form.Control>
-                </Form.Group>
-
-                <Form.Group>
-                    <Form.Label>Phone Number</Form.Label>
-                    <Form.Control type="Phone" placeholder="Enter Phone Number"></Form.Control>
-                </Form.Group>
-
-                <Form.Group>
-                    <Form.Label>Shape</Form.Label>
-                    <Form.Control type="Text" placeholder="Enter Shape"></Form.Control>
-                </Form.Group>
-
-                <Form.Group>
-                    <Form.Label>Detailed Description</Form.Label>
-                    <Form.Control type="Text" placeholder="Enter Shape"></Form.Control>
-                </Form.Group>
+                <Container>
+                    <Row>
+                        <Col sm={3}>
+                            <Form.Label>Occasion</Form.Label>
+                        </Col>
+                        <Col>
+                            <Form.Control type="text" placeholder="Enter Occasion"></Form.Control>
+                        </Col>
+                    </Row>
+                    <br></br>
+                    <Row>
+                        <Col sm={3}>
+                            <Form.Label>Company's/Individual's Name</Form.Label>
+                        </Col>
+                        <Col>
+                            <Form.Control type="Text" placeholder="Enter Name"></Form.Control>
+                        </Col>
+                    </Row>
+                    <br></br>
+                    <Row>
+                        <Col sm={3}>
+                            <Form.Label>Email</Form.Label>
+                        </Col>
+                        <Col>
+                            <Form.Control type="Email" placeholder="Enter Email"></Form.Control>
+                        </Col>
+                    </Row>
+                    <br></br>
+                    <Row>
+                        <Col sm={3}>
+                            <Form.Label>Phone Number</Form.Label>
+                        </Col>
+                        <Col>
+                            <Form.Control type="Phone" placeholder="Enter Phone Number"></Form.Control>
+                        </Col>
+                    </Row>
+                    <br></br>
+                    <Row>
+                        <Col sm={3}>
+                            <Form.Label>Shape</Form.Label>
+                        </Col>
+                        <Col>
+                            <Form.Control type="Text" placeholder="Enter Shape"></Form.Control>
+                        </Col>
+                    </Row>
+                    <br></br>
+                    <Row>
+                        <Col sm={3}>
+                            <Form.Label>Detailed Description</Form.Label>
+                        </Col>
+                        <Col>
+                            <Form.Control type="Text" placeholder="Enter Shape"></Form.Control>
+                        </Col>
+                    </Row>
+                </Container>
             </Form>
+            <Button>Submit</Button>
             </Card>
         </div>
     );
