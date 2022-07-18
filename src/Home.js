@@ -8,13 +8,13 @@ function Home() {
             <h5>Blurb</h5>
             <Container>
                 <Row>
-                    <Col><img alt="Image"/><h6>What</h6></Col>
-                    <Col><img alt="Image"/><h6>Going</h6></Col>
-                    <Col><img alt="Image"/><h6>Happen</h6></Col>
+                    <Col><img alt="Image"/><h6>What</h6><p>Blurb</p></Col>
+                    <Col><img alt="Image"/><h6>Going</h6><p>Blurb</p></Col>
+                    <Col><img alt="Image"/><h6>Happen</h6><p>Blurb</p></Col>
                 </Row>
             </Container>
             <Row>
-                <h6>Make your own puzzle<Button>Here</Button></h6>
+                <h6><Button>Make Your Own Puzzle Now</Button></h6>
             </Row>
         </div>
     );
