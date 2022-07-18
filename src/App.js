@@ -1,15 +1,13 @@
 import './App.css';
 import Navbar from './TopNav';
 import Premade from './Premade';
-import { Button } from 'react-bootstrap';
+import OurWork from './OurWork';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Premade />
-      HelloTesting
-      <Button>Test</Button>
+      <OurWork />
     </div>
   );
 }
