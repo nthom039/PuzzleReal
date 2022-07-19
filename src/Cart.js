@@ -19,7 +19,7 @@ function Cart() {
                             </Col>
                             <Col>
                                 <Card.Text>Price</Card.Text>
-                                <input type="number" min="0"/>
+                                <input type="number" min="0" defaultValue={"1"}/>
                             </Col>
                         </Row>
                     </Card>
@@ -37,7 +37,7 @@ function Cart() {
                             </Col>
                             <Col>
                                 <Card.Text>Price</Card.Text>
-                                <input type="number" min="0"/>
+                                <input type="number" min="0" defaultValue={"1"}/>
                             </Col>
                         </Row>
                     </Card>
@@ -55,7 +55,7 @@ function Cart() {
                             </Col>
                             <Col>
                                 <Card.Text>Price</Card.Text>
-                                <input type="number" min="0"/>
+                                <input type="number" min="0" defaultValue={"1"}/>
                             </Col>
                         </Row>
                     </Card>
