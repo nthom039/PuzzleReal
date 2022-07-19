@@ -15,26 +15,38 @@ function MakeYourOwn() {
             <br></br>
             <Row>
                 <Col>
-                    <Form.Select>
+                <Row>
+                    <Col sm={1}><p>Shape</p></Col>
+                    <Col><Form.Select>
                         <option value="1">Square</option>
                         <option value="2">Rectangle</option>
                         <option value="3">Star</option>
                         <option value="4">Circle</option>
-                    </Form.Select>
-                    <Form.Select>
+                    </Form.Select></Col>
+                </Row>
+                    
+                <Row>
+                    <Col sm={1}><p>Pieces</p></Col>
+                    <Col><Form.Select>
                         <option value="1">48</option>
                         <option value="2">200</option>
                         <option value="3">1000</option>
                         <option value="4">2000</option>
-                    </Form.Select>
-                    <Form.Select>
+                    </Form.Select></Col>
+                </Row>
+                <Row>
+                    <Col sm={1}><p>Color</p></Col>
+                    <Col><Form.Select>
                         <option value="1">Monochrome</option>
                         <option value="1">Full Color</option>
-                    </Form.Select>
-                    <Form.Control type="file" accept="image/gif, image/jpeg, image/png" onChange={handleChange}/>
-                    
+                    </Form.Select></Col>
+                </Row>
+                <Row>
+                    <Col sm={1}><p>Image</p></Col>
+                    <Col><Form.Control type="file" accept="image/gif, image/jpeg, image/png" onChange={handleChange}/></Col>
+                </Row>
                 </Col>
-                <Col><img src={file} class="img-fluid"/></Col>
+                <Col><img src={file} class="img-fluid" alt="Image will apear here"/></Col>
             </Row>
             <br></br>
             <Button>Add to cart</Button>
