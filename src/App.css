@@ -63,4 +63,6 @@
 
 .Ambitious .Card {
   padding: 0.5%;
+  text-align: left;
+  align-items: left;
 }

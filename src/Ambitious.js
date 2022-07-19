@@ -5,11 +5,12 @@ function Ambitious() {
         <div className="Ambitious">
             <h1>Ambitious</h1>
             <Card className="Card">
+            <br></br>
             <Form>
                 <Container>
                     <Row>
                         <Col sm={3}>
-                            <Form.Label>Occasion</Form.Label>
+                            <Form.Label className="cardText">Occasion</Form.Label>
                         </Col>
                         <Col>
                             <Form.Control type="text" placeholder="Enter Occasion"></Form.Control>
@@ -62,7 +63,9 @@ function Ambitious() {
                     </Row>
                 </Container>
             </Form>
+            <br></br>
             <Button>Submit</Button>
+            <br></br>
             </Card>
         </div>
     );
