@@ -1,4 +1,4 @@
-import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import PuzzleHolder from "./PuzzleHolder.jpeg"
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
                 </Row>
             </Container>
             <Row>
-                <h6><Button>Make Your Own Puzzle Now</Button></h6>
+                <h6><Button href="/makeyourown">Make Your Own Puzzle Now</Button></h6>
             </Row>
         </div>
     );
