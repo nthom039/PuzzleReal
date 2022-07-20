@@ -1,7 +1,14 @@
-import { Card, Form, Row, Col, Button } from "react-bootstrap";
+import { useState } from "react";
+import { Card, Form, Row, Col, Button, Modal } from "react-bootstrap";
 import PuzzleHolder from "./PuzzleHolder.jpeg"
 
 function Cart() {
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return (
         <div className="Cart">
             <h1>Cart</h1>
@@ -115,11 +122,22 @@ function Cart() {
                             <Col><Form.Control></Form.Control></Col>
                         </Row>
                         <br></br>
-                        <Row><Col><Button>Checkout</Button></Col></Row>
+                        <Row><Col><Button onClick={handleShow}>Checkout</Button></Col></Row>
                         <br></br>
                     </Card>
                 </Col>
             </Row>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                <Modal.Title>Congrats</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Your puzzles should be at your house in 5-7 buisnes days</Modal.Body>
+                <Modal.Footer>
+                <Button variant="primary" onClick={handleClose}>
+                    YAY!
+                </Button>
+                </Modal.Footer>
+            </Modal>
         </div>
     );
 }

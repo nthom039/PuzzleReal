@@ -1,4 +1,4 @@
-import { Button, Col, Form, Row } from "react-bootstrap";
+import { Button, Col, Form, Row, Modal } from "react-bootstrap";
 import { useState } from "react";
 
 function MakeYourOwn() {
@@ -7,6 +7,11 @@ function MakeYourOwn() {
         console.log(e.target.files);
         setFile(URL.createObjectURL(e.target.files[0]));
     }
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
 
     return(
         <div className="MakeYourOwn">
@@ -53,7 +58,18 @@ function MakeYourOwn() {
                 <Col><img src={file} class="img-fluid" alt="Image will apear here"/></Col>
             </Row>
             <br></br>
-            <Button>Add to cart</Button>
+            <Button onClick={handleShow}>Add to cart</Button>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                <Modal.Title>Congrats</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Your custon puzzle has been added to your cart!</Modal.Body>
+                <Modal.Footer>
+                <Button variant="primary" onClick={handleClose}>
+                    YAY!
+                </Button>
+                </Modal.Footer>
+            </Modal>
         </div>
     );
 }
