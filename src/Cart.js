@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Card, Form, Row, Col, Button, Modal } from "react-bootstrap";
 import PuzzleHolder from "./PuzzleHolder.jpeg"
+import CartList from "./cartList";
+import list from './data'
 
 function Cart() {
 
@@ -14,6 +16,13 @@ function Cart() {
             <h1>Cart</h1>
             <Row>
                 <Col>
+                <section>
+                {
+                    list.map((item)=>(
+                        <CartList key={item.id} item={item}/>
+                        ))
+                    }
+                </section>
                     <Card>
                         <Row>
                             <Col>

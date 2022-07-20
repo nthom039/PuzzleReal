@@ -13,9 +13,9 @@ function TopNav() {
 
   return (
     <div className="TopNav">
-      <Navbar bg="primary" variant="dark" fixed="top">
+      <Navbar bg="dark" variant="dark" fixed="top">
         <Container>
-          <linkContainer to="/"><Navbar.Brand href='/'>Title</Navbar.Brand></linkContainer>
+          <linkContainer to="/"><Navbar.Brand href='/'>Puzzles By You</Navbar.Brand></linkContainer>
           <div>
           <Button variant="light" href='/cart'>Cart</Button>
           <Button variant="light" onClick={handleShow}>Menu</Button>

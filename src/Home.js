@@ -6,7 +6,7 @@ function Home() {
     return (
         <div>
             <img alt="Banner" src={PuzzleBanner} style={{ width: "100%" }}/>
-            <h1>Home Name Title</h1>
+            <h1>Puzzles By You</h1>
             <h5>How We Roll</h5>
             <p>Here at """insert name here""" we provide people with the ability to make the puzzles of their dreams with a wide selection of customization options. If you can dream it we can make it.</p>
             <Container>
