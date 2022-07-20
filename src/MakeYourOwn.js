@@ -16,7 +16,7 @@ function MakeYourOwn() {
     return(
         <div className="MakeYourOwn">
             <h1>Make Your Own</h1>
-            <h5>Blurb goes here</h5>
+            <h5>Your idea, your puzzle</h5>
             <br></br>
             <Row>
                 <Col>
@@ -55,7 +55,7 @@ function MakeYourOwn() {
                     <Col><Form.Control type="file" accept="image/gif, image/jpeg, image/png" onChange={handleChange}/></Col>
                 </Row>
                 </Col>
-                <Col><img src={file} class="img-fluid" alt="Image will apear here"/></Col>
+                <Col><img src={file} class="img-fluid" alt="Puzzle will apear here"/></Col>
             </Row>
             <br></br>
             <Button onClick={handleShow}>Add to cart</Button>

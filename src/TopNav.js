@@ -18,7 +18,7 @@ function TopNav() {
           <linkContainer to="/"><Navbar.Brand href='/'>Title</Navbar.Brand></linkContainer>
           <div>
           <Button variant="light" href='/cart'>Cart</Button>
-          <Button variant="light" onClick={handleShow}>Launch</Button> 
+          <Button variant="light" onClick={handleShow}>Menu</Button> 
           </div>
           <Offcanvas show={show} onHide={handleClose} placement={'end'}>
             <Offcanvas.Header closeButton>
