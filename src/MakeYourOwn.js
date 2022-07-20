@@ -18,16 +18,19 @@ function MakeYourOwn() {
                 <Row>
                     <Col sm={1}><p>Shape</p></Col>
                     <Col><Form.Select>
-                        <option value="1">Square</option>
-                        <option value="2">Rectangle</option>
-                        <option value="3">Star</option>
-                        <option value="4">Circle</option>
+                        <option></option>
+                        <option value="1">Original</option>
+                        <option value="2">Square</option>
+                        <option value="3">Rectangle</option>
+                        <option value="4">Star</option>
+                        <option value="5">Circle</option>
                     </Form.Select></Col>
                 </Row>
                     
                 <Row>
                     <Col sm={1}><p>Pieces</p></Col>
                     <Col><Form.Select>
+                        <option></option>
                         <option value="1">48</option>
                         <option value="2">200</option>
                         <option value="3">1000</option>
@@ -37,6 +40,7 @@ function MakeYourOwn() {
                 <Row>
                     <Col sm={1}><p>Color</p></Col>
                     <Col><Form.Select>
+                        <option></option>
                         <option value="1">Monochrome</option>
                         <option value="1">Full Color</option>
                     </Form.Select></Col>

@@ -1,4 +1,5 @@
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import PuzzleHolder from "./PuzzleHolder.jpeg"
 
 function Home() {
     return (
@@ -8,9 +9,9 @@ function Home() {
             <h5>Blurb</h5>
             <Container>
                 <Row>
-                    <Col><img alt="Image"/><h6>What</h6><p>Blurb</p></Col>
-                    <Col><img alt="Image"/><h6>Going</h6><p>Blurb</p></Col>
-                    <Col><img alt="Image"/><h6>Happen</h6><p>Blurb</p></Col>
+                    <Col><img alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '24rem' }}/><h6>What</h6><p>Blurb</p></Col>
+                    <Col><img alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '24rem' }}/><h6>Going</h6><p>Blurb</p></Col>
+                    <Col><img alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '24rem' }}/><h6>Happen</h6><p>Blurb</p></Col>
                 </Row>
             </Container>
             <Row>
