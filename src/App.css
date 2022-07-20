@@ -71,3 +71,8 @@
   padding-left: 5%;
   padding-right: 5%;
 }
+
+.OurWork .imageGrid {
+  text-align: center;
+  align-items: center;
+}
