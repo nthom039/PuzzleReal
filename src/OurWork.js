@@ -1,4 +1,4 @@
-import { Col, Container, Row, Img } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import PuzzleHolder from "./PuzzleHolder.jpeg"
 
 function OurWork() {
@@ -12,39 +12,19 @@ function OurWork() {
                     <Col>
                         <Row>
                             <div className="imageGrid">
-                                <img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
+                                <img variant="top" alt="PuzzleHolder" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
                                 <h5>Text</h5>
                             </div>
                         </Row>
                         <Row>
                             <div className="imageGrid">
-                                <img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
+                                <img variant="top" alt="PuzzleHolder" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
                                 <h5>Text</h5>
                             </div>
                         </Row>
                         <Row>
                             <div className="imageGrid">
-                                <img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
-                                <h5>Text</h5>
-                            </div>
-                        </Row>
-                    </Col>
-                    <Col>
-                        <Row>
-                            <div className="imageGrid">
-                                <img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
-                                <h5>Text</h5>
-                            </div>
-                        </Row>
-                        <Row>
-                            <div className="imageGrid">
-                                <img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
-                                <h5>Text</h5>
-                            </div>
-                        </Row>
-                        <Row>
-                            <div className="imageGrid">
-                                <img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
+                                <img variant="top" alt="PuzzleHolder" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
                                 <h5>Text</h5>
                             </div>
                         </Row>
@@ -52,19 +32,39 @@ function OurWork() {
                     <Col>
                         <Row>
                             <div className="imageGrid">
-                                <img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
+                                <img variant="top" alt="PuzzleHolder" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
                                 <h5>Text</h5>
                             </div>
                         </Row>
                         <Row>
                             <div className="imageGrid">
-                                <img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
+                                <img variant="top" alt="PuzzleHolder" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
                                 <h5>Text</h5>
                             </div>
                         </Row>
                         <Row>
                             <div className="imageGrid">
-                                <img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
+                                <img variant="top" alt="PuzzleHolder" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
+                                <h5>Text</h5>
+                            </div>
+                        </Row>
+                    </Col>
+                    <Col>
+                        <Row>
+                            <div className="imageGrid">
+                                <img variant="top" alt="PuzzleHolder" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
+                                <h5>Text</h5>
+                            </div>
+                        </Row>
+                        <Row>
+                            <div className="imageGrid">
+                                <img variant="top" alt="PuzzleHolder" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
+                                <h5>Text</h5>
+                            </div>
+                        </Row>
+                        <Row>
+                            <div className="imageGrid">
+                                <img variant="top" alt="PuzzleHolder" src={PuzzleHolder} className='img-thumbnail' style={{ maxWidth: '12.5rem' }}/>
                                 <h5>Text</h5>
                             </div>
                         </Row>

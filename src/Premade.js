@@ -11,119 +11,135 @@ function Premade() {
                 <Row>
                     <Col>
                     <div className="center">
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
-                        <Card.Body>
-                            <Card.Title className="cardTitle">Card Title</Card.Title>
-                            <Row>
-                            <Col className="price"><Card.Text>$$$</Card.Text></Col>
-                            <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
+                            <Card.Body>
+                                <Card.Title className="cardTitle">Card Title</Card.Title>
+                                <Row>
+                                <Col className="price"><Card.Text>$$$</Card.Text></Col>
+                                <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
                     </div>
                     </Col>
                     <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
-                        <Card.Body>
-                            <Card.Title className="cardTitle">Card Title</Card.Title>
-                            <Row>
-                            <Col className="price"><Card.Text>$$$</Card.Text></Col>
-                            <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
+                    <div className="center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
+                            <Card.Body>
+                                <Card.Title className="cardTitle">Card Title</Card.Title>
+                                <Row>
+                                <Col className="price"><Card.Text>$$$</Card.Text></Col>
+                                <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                    </div>
                     </Col>
                     <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
-                        <Card.Body>
-                            <Card.Title className="cardTitle">Card Title</Card.Title>
-                            <Row>
-                            <Col className="price"><Card.Text>$$$</Card.Text></Col>
-                            <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
-                    </Col>
-                </Row>
-                <br></br>
-                <Row>
-                    <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
-                        <Card.Body>
-                            <Card.Title className="cardTitle">Card Title</Card.Title>
-                            <Row>
-                            <Col className="price"><Card.Text>$$$</Card.Text></Col>
-                            <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
-                    </Col>
-                    <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
-                        <Card.Body>
-                            <Card.Title className="cardTitle">Card Title</Card.Title>
-                            <Row>
-                            <Col className="price"><Card.Text>$$$</Card.Text></Col>
-                            <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
-                    </Col>
-                    <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
-                        <Card.Body>
-                            <Card.Title className="cardTitle">Card Title</Card.Title>
-                            <Row>
-                            <Col className="price"><Card.Text>$$$</Card.Text></Col>
-                            <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
+                    <div className="center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
+                            <Card.Body>
+                                <Card.Title className="cardTitle">Card Title</Card.Title>
+                                <Row>
+                                <Col className="price"><Card.Text>$$$</Card.Text></Col>
+                                <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                    </div>
                     </Col>
                 </Row>
                 <br></br>
                 <Row>
-                    <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
-                        <Card.Body>
-                            <Card.Title className="cardTitle">Card Title</Card.Title>
-                            <Row>
-                            <Col className="price"><Card.Text>$$$</Card.Text></Col>
-                            <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
+                <Col>
+                    <div className="center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
+                            <Card.Body>
+                                <Card.Title className="cardTitle">Card Title</Card.Title>
+                                <Row>
+                                <Col className="price"><Card.Text>$$$</Card.Text></Col>
+                                <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                    </div>
                     </Col>
                     <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
-                        <Card.Body>
-                            <Card.Title className="cardTitle">Card Title</Card.Title>
-                            <Row>
-                            <Col className="price"><Card.Text>$$$</Card.Text></Col>
-                            <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
+                    <div className="center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
+                            <Card.Body>
+                                <Card.Title className="cardTitle">Card Title</Card.Title>
+                                <Row>
+                                <Col className="price"><Card.Text>$$$</Card.Text></Col>
+                                <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                    </div>
                     </Col>
                     <Col>
-                    <Card style={{ width: '18rem' }}>
-                        <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
-                        <Card.Body>
-                            <Card.Title className="cardTitle">Card Title</Card.Title>
-                            <Row>
-                            <Col className="price"><Card.Text>$$$</Card.Text></Col>
-                            <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
-                            </Row>
-                        </Card.Body>
-                    </Card>
+                    <div className="center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
+                            <Card.Body>
+                                <Card.Title className="cardTitle">Card Title</Card.Title>
+                                <Row>
+                                <Col className="price"><Card.Text>$$$</Card.Text></Col>
+                                <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    </Col>
+                </Row>
+                <br></br>
+                <Row>
+                <Col>
+                    <div className="center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
+                            <Card.Body>
+                                <Card.Title className="cardTitle">Card Title</Card.Title>
+                                <Row>
+                                <Col className="price"><Card.Text>$$$</Card.Text></Col>
+                                <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    </Col>
+                    <Col>
+                    <div className="center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
+                            <Card.Body>
+                                <Card.Title className="cardTitle">Card Title</Card.Title>
+                                <Row>
+                                <Col className="price"><Card.Text>$$$</Card.Text></Col>
+                                <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                    </Col>
+                    <Col>
+                    <div className="center">
+                        <Card style={{ width: '18rem' }}>
+                            <Card.Img variant="top" alt="Image" src={PuzzleHolder} className='img-thumbnail'/>
+                            <Card.Body>
+                                <Card.Title className="cardTitle">Card Title</Card.Title>
+                                <Row>
+                                <Col className="price"><Card.Text>$$$</Card.Text></Col>
+                                <Col className="buyButton"><Button variant="primary">Buy</Button></Col>
+                                </Row>
+                            </Card.Body>
+                        </Card>
+                    </div>
                     </Col>
                 </Row>
             </Container>

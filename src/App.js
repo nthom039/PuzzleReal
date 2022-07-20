@@ -11,7 +11,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Premade />
+      <br></br>
+      <br></br>
+      <br></br>
+      <Cart />
     </div>
   );
 }

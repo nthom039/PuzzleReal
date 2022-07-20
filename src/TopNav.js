@@ -11,7 +11,7 @@ function TopNav() {
 
   return (
     <div className="TopNav">
-      <Navbar bg="primary" variant="dark">
+      <Navbar bg="primary" variant="dark" fixed="top">
         <Container>
           <Navbar.Brand href="#">Title</Navbar.Brand>
           <div>
@@ -27,9 +27,9 @@ function TopNav() {
                 <Nav.Link>Home</Nav.Link>
                 <Nav.Link>Our Work</Nav.Link>
                 <Nav.Link>Premade</Nav.Link>
-                {/*<Nav.Link as={Link} to="/MakeYourOwn">Make Your Own</Nav.Link>*/}
+                <Nav.Link>Make Your Own</Nav.Link>
                 <Nav.Link>Ambitious</Nav.Link>
-                {/*<Nav.Link as={Link} to="/Cart">Cart</Nav.Link>*/}
+                <Nav.Link>Cart</Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Offcanvas>

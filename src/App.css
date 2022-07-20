@@ -38,6 +38,8 @@
 }
 
 .Premade .center{
+  display: flex;
+  justify-content: center;
   text-align: center;
   align-items: center;
 }
@@ -80,4 +82,14 @@
 .OurWork .imageGrid {
   text-align: center;
   align-items: center;
+}
+
+.Cart {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Cart .TitleDes{
+  padding: 5%;
+  text-align: left;
 }
