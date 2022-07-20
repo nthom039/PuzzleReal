@@ -1,4 +1,4 @@
-import { Button, Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
+import { Button, Col, Container, Nav, Navbar, Offcanvas } from 'react-bootstrap'
 import React, { useState } from 'react';
 import {LinkContainer} from 'react-router-bootstrap'
 import { Link } from 'react-router-dom';
@@ -18,7 +18,7 @@ function TopNav() {
           <linkContainer to="/"><Navbar.Brand href='/'>Title</Navbar.Brand></linkContainer>
           <div>
           <Button variant="light" href='/cart'>Cart</Button>
-          <Button variant="light" onClick={handleShow}>Menu</Button> 
+          <Button variant="light" onClick={handleShow}>Menu</Button>
           </div>
           <Offcanvas show={show} onHide={handleClose} placement={'end'}>
             <Offcanvas.Header closeButton>
