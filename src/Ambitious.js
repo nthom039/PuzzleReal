@@ -1,6 +1,13 @@
-import { Card, Container, Form, Row, Col, Button } from "react-bootstrap";
+import { useState } from "react";
+import { Card, Container, Form, Row, Col, Button, Modal } from "react-bootstrap";
 
 function Ambitious() {
+
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return (
         <div className="Ambitious">
             <h1>Ambitious</h1>
@@ -64,9 +71,20 @@ function Ambitious() {
                 </Container>
             </Form>
             <br></br>
-            <Button>Submit</Button>
+            <Row><Col><div className="center"><Button onClick={handleShow}>Add to cart</Button></div></Col></Row>
             <br></br>
             </Card>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                <Modal.Title>Congrats</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>Your custom puzzle has been added to your cart</Modal.Body>
+                <Modal.Footer>
+                <Button variant="primary" onClick={handleClose}>
+                    YAY!
+                </Button>
+                </Modal.Footer>
+            </Modal>
         </div>
     );
 }
