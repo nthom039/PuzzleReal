@@ -22,7 +22,7 @@ function Home() {
                 </Row>
             </Container>
             <Row>
-                <h6><Button href="/makeyourown">Make Your Own Puzzle Now</Button></h6>
+                <h6><Button href="/makeyourown" variant="light">Make Your Own Puzzle Now</Button></h6>
             </Row>
         </div>
     );

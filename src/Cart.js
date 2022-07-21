@@ -120,7 +120,7 @@ function Cart() {
                         </Row>
                         <br></br>
                         <Card.Title>Billing Information</Card.Title>
-                        <Row><Col><Button>VISA</Button></Col><Col><Button>MasterCard</Button></Col><Col><Button>Other</Button></Col></Row>
+                        <Row><Col><Button variant="dark">VISA</Button></Col><Col><Button variant="dark">MasterCard</Button></Col><Col><Button variant="dark">Other</Button></Col></Row>
                         <br></br>
                         <Row>
                             <Col><Card.Text>CardNumber</Card.Text></Col>
@@ -135,7 +135,7 @@ function Cart() {
                             <Col><Form.Control></Form.Control></Col>
                         </Row>
                         <br></br>
-                        <Row><Col><Button onClick={handleShow}>Checkout</Button></Col></Row>
+                        <Row><Col><Button onClick={handleShow} variant="dark">Checkout</Button></Col></Row>
                         <br></br>
                     </Card>
                 </Col>
@@ -146,7 +146,7 @@ function Cart() {
                 </Modal.Header>
                 <Modal.Body>Your puzzles should be at your house in 5-7 buisnes days</Modal.Body>
                 <Modal.Footer>
-                <Button variant="primary" onClick={handleClose}>
+                <Button variant="light" onClick={handleClose}>
                     YAY!
                 </Button>
                 </Modal.Footer>

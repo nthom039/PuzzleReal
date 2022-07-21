@@ -32,6 +32,7 @@ function TopNav() {
                 <linkContainer to="/MakeYourOwn"><Nav.Link href='/MakeYourOwn'>Make Your Own</Nav.Link></linkContainer>
                 <linkContainer to="/ambitious"><Nav.Link href='/ambitious'>Ambitious</Nav.Link></linkContainer>
                 <linkContainer to="/cart"><Nav.Link href='/cart'>Cart</Nav.Link></linkContainer>
+                <linkContainer to="/FAQ"><Nav.Link href='/FAQ'>FAQ</Nav.Link></linkContainer>
               </Nav>
             </Offcanvas.Body>
           </Offcanvas>

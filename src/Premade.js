@@ -63,7 +63,7 @@ function Premade() {
                                     <Card.Title className="cardTitle">Lego Puzzle</Card.Title>
                                     <Row>
                                     <Col className="price"><div className="cardPrice"><Card.Text>35$</Card.Text></div></Col>
-                                    <Col className="buyButton"><div className="cardButton"><Button variant="primary" onClick={addLego}>Add to cart</Button></div></Col>
+                                    <Col className="buyButton"><div className="cardButton"><Button variant="dark" onClick={addLego}>Add to cart</Button></div></Col>
                                     </Row>
                                 </Card.Body>
                             </Card>
@@ -77,7 +77,7 @@ function Premade() {
                                     <Card.Title className="cardTitle">SharkWeek Puzzle</Card.Title>
                                     <Row>
                                     <Col className="price"><div className="cardPrice"><Card.Text>45$</Card.Text></div></Col>
-                                    <Col className="buyButton"><div className="cardButton"><Button variant="primary" onClick={addShark}>Add to cart</Button></div></Col>
+                                    <Col className="buyButton"><div className="cardButton"><Button variant="dark" onClick={addShark}>Add to cart</Button></div></Col>
                                     </Row>
                                 </Card.Body>
                             </Card>
@@ -91,7 +91,7 @@ function Premade() {
                                     <Card.Title className="cardTitle">Canada Puzzle</Card.Title>
                                     <Row>
                                     <Col className="price"><div className="cardPrice"><Card.Text>20$</Card.Text></div></Col>
-                                    <Col className="buyButton"><div className="cardButton"><Button variant="primary" onClick={addCanada}>Add to cart</Button></div></Col>
+                                    <Col className="buyButton"><div className="cardButton"><Button variant="dark" onClick={addCanada}>Add to cart</Button></div></Col>
                                     </Row>
                                 </Card.Body>
                             </Card>

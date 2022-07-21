@@ -14,7 +14,7 @@ const ItemCard = ({ item, handleBuy }) => {
                     <Card.Title className="cardTitle">{ name }</Card.Title>
                     <Row>
                     <Col className="price"><div className="cardPrice">{ price }$<Card.Text></Card.Text></div></Col>
-                    <Col className="buyButton"><div className="cardButton"><Button variant="primary" onClick={() => handleBuy(item)}>Add to cart</Button></div></Col>
+                    <Col className="buyButton"><div className="cardButton"><Button variant="light" onClick={() => handleBuy(item)}>Add to cart</Button></div></Col>
                     </Row>
                 </Card.Body>
             </Card>

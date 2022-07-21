@@ -12,6 +12,8 @@ import MakeYourOwn from './MakeYourOwn';
 import OurWork from './OurWork';
 import Ambitious from './Ambitious';
 import TopNav from './TopNav';
+import CanadaView from './CanadaView';
+import FAQ from './FAQ'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -28,6 +30,8 @@ ReactDOM.render(
         <Route path="/ambitious" element={<Ambitious/>} />
         <Route path="/OurWork" element={<OurWork/>} />
         <Route path="/MakeYourOwn" element={<MakeYourOwn/>} />
+        <Route path="/CanadaView" element={<CanadaView/>} />
+        <Route path='/FAQ' element={<FAQ />} />
       </Routes>
     </Router>
     </div>

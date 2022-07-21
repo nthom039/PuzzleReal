@@ -58,14 +58,14 @@ function MakeYourOwn() {
                 <Col><img src={file} class="img-fluid" alt="Puzzle will apear here"/></Col>
             </Row>
             <br></br>
-            <Button onClick={handleShow}>Add to cart</Button>
+            <Button onClick={handleShow} variant="light">Add to cart</Button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
                 <Modal.Title>Congrats</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>Your custon puzzle has been added to your cart!</Modal.Body>
                 <Modal.Footer>
-                <Button variant="primary" onClick={handleClose}>
+                <Button variant="light" onClick={handleClose}>
                     YAY!
                 </Button>
                 </Modal.Footer>

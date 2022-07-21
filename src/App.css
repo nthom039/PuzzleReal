@@ -102,3 +102,10 @@
   padding: 5%;
   text-align: left;
 }
+
+.faqCard {
+  margin: 5%;
+  padding: 1%;
+  text-align: left;
+  align-items: left;
+}

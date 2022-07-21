@@ -71,7 +71,7 @@ function Ambitious() {
                 </Container>
             </Form>
             <br></br>
-            <Row><Col><div className="center"><Button onClick={handleShow}>Add to cart</Button></div></Col></Row>
+            <Row><Col><div className="center"><Button onClick={handleShow} variant="dark">Add to cart</Button></div></Col></Row>
             <br></br>
             </Card>
             <Modal show={show} onHide={handleClose}>
@@ -80,7 +80,7 @@ function Ambitious() {
                 </Modal.Header>
                 <Modal.Body>Your custom puzzle has been added to your cart</Modal.Body>
                 <Modal.Footer>
-                <Button variant="primary" onClick={handleClose}>
+                <Button variant="light" onClick={handleClose}>
                     YAY!
                 </Button>
                 </Modal.Footer>
