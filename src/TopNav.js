@@ -13,7 +13,7 @@ function TopNav() {
 
   return (
     <div className="TopNav">
-      <Navbar bg="dark" variant="dark" fixed="top">
+      <Navbar variant="dark" fixed="top" style={{ background: '#FB8500' }}>
         <Container>
           <linkContainer to="/"><Navbar.Brand href='/'>Puzzles By You</Navbar.Brand></linkContainer>
           <div>

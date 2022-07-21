@@ -3,6 +3,7 @@ import { Card, Form, Row, Col, Button, Modal } from "react-bootstrap";
 import PuzzleHolder from "./PuzzleHolder.jpeg"
 import CartList from "./cartList";
 import list from './data'
+import shoppingCart from "./shoppingCart";
 
 function Cart() {
 
@@ -11,18 +12,21 @@ function Cart() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
+    const first = shoppingCart[0];
+
     return (
         <div className="Cart">
             <h1>Cart</h1>
-            <Row>
-                <Col>
-                <section>
+            <h1>{ first?.name }</h1>
+            {/*<section>
                 {
                     list.map((item)=>(
-                        <CartList key={item.id} item={item}/>
+                        <CartList key={item.price} item={item}/>
                         ))
-                    }
-                </section>
+                }
+            </section>*/}
+            <Row>
+                <Col>
                     <Card>
                         <Row>
                             <Col>

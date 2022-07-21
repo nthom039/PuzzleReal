@@ -15,11 +15,12 @@ import TopNav from './TopNav';
 
 ReactDOM.render(
   <React.StrictMode>
-       <Router>
+    <style>{'body { background-color: #8ECAE6; }'}</style>
+    <div className="App">
+    <Router>
       <TopNav/>
       <br></br>
       <br></br>
-      <div className="App">
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route path="/premade" element={<Premade/>} />
@@ -28,8 +29,8 @@ ReactDOM.render(
         <Route path="/OurWork" element={<OurWork/>} />
         <Route path="/MakeYourOwn" element={<MakeYourOwn/>} />
       </Routes>
-      </div>
     </Router>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
